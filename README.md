@@ -69,6 +69,12 @@ The agent recommends a model and effort. If the active settings differ or are un
 - Choose **Keep the current model** to continue with the existing settings.
 - Choose **Approve** to accept the recommendation, then apply it in the app's model selector and confirm the change in chat.
 
+## Approval UI example
+
+For a Redis race-condition investigation, the skill recommends **GPT-6 Astra at high effort** and shows an interactive prompt with **Approve** and **Keep the current model** choices. The screenshot shows GPT-6.1 Sol Medium still selected; accepting the recommendation requires changing the app's model selector manually.
+
+![Codex model-routing approval prompt recommending GPT-6 Astra at high effort](assets/model-routing-approval.png)
+
 ## Limitations
 
 - This skill does **not** switch the active model. Approval records your preference; the model selector performs the actual change.
